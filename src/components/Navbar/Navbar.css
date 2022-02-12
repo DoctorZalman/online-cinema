@@ -1,0 +1,22 @@
+.menu {
+  display: flex;
+  padding: 30px 0;
+  background-color: transparent;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 15px;
+}
+.menu-items ul {
+  display: flex;
+  font-family: "Dosis", sans-serif;
+}
+.menu-items ul li {
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=Navbar.css.map */
