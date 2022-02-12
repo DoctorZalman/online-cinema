@@ -1,16 +1,34 @@
+@import "../../styles/variables/variables";
+
 .top-search {
   display: flex;
-  align-items: center;
   justify-content: flex-start;
   border: 4px solid #020d18;
+
+
   select {
     width: 20%;
-    height: 46px;
     border: none;
-    background-color: #233a50;
-    //font-family: 'Nunito', sans-serif;
+    border-right: 1px solid #020d18;
+    height: 46px;
+
+    background-color: $primary-color;
+    color: $title-text-color;
+    font-size: 14px;
+    padding: 6px 12px;
+    font-family: $additional-font;
+    text-transform: uppercase;
+
   }
+
   input {
-    width: 80%;
+    background-color: $primary-color;
+    border: none;
+    width: 100%;
+    color: $placeholder-text-color;
+    padding: 6px 12px;
+  }
+  input:focus-visible {
+    outline: none;
   }
 }
