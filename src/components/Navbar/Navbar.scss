@@ -1,23 +1,28 @@
 @import "../../styles/variables/variables";
 
-
 .menu {
   display: flex;
   padding: 30px 0;
   background-color: transparent;
 }
+
 .menu-items {
   display: flex;
   justify-content: space-between;
   width: 100%;
   padding: 0 15px;
-  ul {
-  display: flex;
-    font-family: $primary-font;
 
-    li {
+  .nav-menu, .log-in-menu {
+    display: flex;
+    font-family: $primary-font;
+    a {
+      color: $placeholder-text-color;
+      text-decoration: none;
       text-transform: uppercase;
       padding: 15px;
+    }
+    a.defaultButton {
+      color: #ffffff;
     }
   }
 }
