@@ -11,17 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f758f48b-dfe7-4a1f-9070-4798f7a6044f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/Celebrities/CelebritiesPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/Home/HomePage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/Layout/LayoutPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/Login/LoginPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/Movies/MoviesPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/NotFound/NotFoundPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/SearchPage/SearchPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SingUp/SingUpPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Default-Slider/Default-Slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Default-Slider/Default-Slider.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Default-Slider/Default-Slider.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Default-Slider/Default-Slider.css.map" afterDir="false" />
@@ -29,11 +19,9 @@
       <change beforePath="$PROJECT_DIR$/src/components/Main-slider/MainSlider.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main-slider/MainSlider.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/variables/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variables/variables.scss" afterDir="false" />
@@ -154,5 +142,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1644692120078" />
+    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1644855374309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1644855374309" />
+    <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1644851592547">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1644851592547" />
   </component>
 </project>

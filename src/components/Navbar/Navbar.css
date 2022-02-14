@@ -30,4 +30,8 @@
   color: #ffffff;
 }
 
+.menu-items a.active {
+  color: #dcf836;
+}
+
 /*# sourceMappingURL=Navbar.css.map */
