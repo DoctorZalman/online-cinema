@@ -11,17 +11,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f758f48b-dfe7-4a1f-9070-4798f7a6044f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Default-Slider/Default-Slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Default-Slider/Default-Slider.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main-slider/MainSlider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main-slider/MainSlider.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main-slider/MainSlider.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main-slider/MainSlider.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main-slider/MainSlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main-slider/MainSlider.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main-slider/MainSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main-slider/MainSlider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/variables/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variables/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +40,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="250crt5aWOK2tYiXMsJXaVOCfsm" />
@@ -81,7 +88,9 @@
       <option name="presentableId" value="Default" />
       <updated>1644667645961</updated>
       <workItem from="1644667647021" duration="12613000" />
-      <workItem from="1644680609955" duration="10550000" />
+      <workItem from="1644680609955" duration="10792000" />
+      <workItem from="1644740059941" duration="1449000" />
+      <workItem from="1644741692715" duration="5112000" />
     </task>
     <servers />
   </component>
@@ -98,6 +107,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="654" y="246" width="528" height="331" key="#File_Watchers" timestamp="1644669130487">
@@ -124,9 +134,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="370" y="71" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1644679302044" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1644689293344">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1644692120078">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1644689293344" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1644692120078" />
   </component>
 </project>

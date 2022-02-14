@@ -1,3 +1,5 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 html,
 body,
 div,
@@ -141,8 +143,8 @@ table {
 }
 .main_container {
   margin: 0 auto;
-  max-width: 1200px;
-  width: 100%;
+  max-width: 1720px;
+  width: 90%;
 }
 
 /*# sourceMappingURL=style.css.map */
