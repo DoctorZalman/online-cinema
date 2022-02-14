@@ -1,8 +1,19 @@
 //main color
 $primary-color: #233a50;
+// Nav menu
 $placeholder-text-color: #abb7c4;
 $title-text-color: #ffffff;
+// Button color
+$red-button: #dd003f;
 
 //fonts
 $primary-font: 'Dosis', sans-serif;
 $additional-font: 'Nunito', sans-serif;
+
+// Default Button
+
+.defaultButton {
+  background-color: $red-button;
+  padding: 11px 25px;
+  border-radius: 20px;
+}

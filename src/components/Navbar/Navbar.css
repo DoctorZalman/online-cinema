@@ -1,3 +1,9 @@
+.defaultButton {
+  background-color: #dd003f;
+  padding: 11px 25px;
+  border-radius: 20px;
+}
+
 .menu {
   display: flex;
   padding: 30px 0;
@@ -10,13 +16,18 @@
   width: 100%;
   padding: 0 15px;
 }
-.menu-items ul {
+.menu-items .nav-menu, .menu-items .log-in-menu {
   display: flex;
   font-family: "Dosis", sans-serif;
 }
-.menu-items ul li {
+.menu-items .nav-menu a, .menu-items .log-in-menu a {
+  color: #abb7c4;
+  text-decoration: none;
   text-transform: uppercase;
   padding: 15px;
+}
+.menu-items .nav-menu a.defaultButton, .menu-items .log-in-menu a.defaultButton {
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=Navbar.css.map */

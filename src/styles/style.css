@@ -141,6 +141,12 @@ table {
   font-weight: bold;
   font-style: normal;
 }
+.defaultButton {
+  background-color: #dd003f;
+  padding: 11px 25px;
+  border-radius: 20px;
+}
+
 .main_container {
   margin: 0 auto;
   max-width: 1720px;

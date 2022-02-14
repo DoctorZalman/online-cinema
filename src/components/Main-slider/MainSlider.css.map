@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["MainSlider.scss"],"names":[],"mappings":"AAEA;EACE;EACA","file":"MainSlider.css"}
+{"version":3,"sourceRoot":"","sources":["../../styles/variables/variables.scss","MainSlider.scss"],"names":[],"mappings":"AAcA;EACE,kBATW;EAUX;EACA;;;ACfF;EACE;EACA","file":"MainSlider.css"}
