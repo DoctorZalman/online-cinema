@@ -2,30 +2,5 @@
 
 .slider-container {
   position: relative;
-  background: url("../../img/slider-bg.jpg") no-repeat right 20px;
-}
-.main-slider {
-  text-align: center;
-  background-size: cover;
-  position: relative;
-  padding-top: 200px;
-  padding-bottom: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  .slider-items{
-    display: flex;
-    justify-content: space-between;
-
-    .item{
-      margin-right: 15px;
-      width: 274px;
-      height: 430px;
-      background-color: $primary-color;
-      //max-width: 274px;
-      //width: 100%;
-      //max-height: 430px;
-      //height: 100%;
-    }
-  }
+  background: url("../../img/slider-bg.jpg") no-repeat center ;
 }

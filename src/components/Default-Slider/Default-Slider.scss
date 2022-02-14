@@ -1,0 +1,10 @@
+@import "../../styles/variables/variables";
+
+.item {
+  width: 80%;
+  height: 430px;
+  background-color: $primary-color;
+  & desc {
+    background-color: white;
+  }
+}

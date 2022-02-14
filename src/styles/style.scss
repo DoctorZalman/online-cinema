@@ -143,18 +143,18 @@ table {
   font-weight: bold;
   font-style: normal;
 }
+// React Slick Carousel
 
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 
-
-
+// Variables
 @import "variables/variables";
-//@import "../components/Main-slider/MainSlider";
-//@import "../components/Navbar/Navbar";
 
 
 
 .main_container {
   margin: 0 auto;
-  max-width: 1200px;
-  width: 100%;
+  max-width: 1720px;
+  width: 90%;
 }

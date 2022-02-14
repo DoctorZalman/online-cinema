@@ -1,18 +1,12 @@
-import React from 'react';
+import React from "react";
 import './MainSlider.css'
+import DefaultSlider from "../Default-Slider/Default-Slider";
 
 const MainSlider = () => {
     return (
         <div className='slider-container'>
             <div className='main_container'>
-                <div className="main-slider">
-                    <div className="slider-items">
-                        <div className='item'></div>
-                        <div className='item'></div>
-                        <div className='item'></div>
-                        <div className='item'></div>
-                    </div>
-                </div>
+                <DefaultSlider />
             </div>
         </div>
     );

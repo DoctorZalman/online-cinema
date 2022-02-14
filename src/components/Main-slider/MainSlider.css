@@ -1,27 +1,6 @@
 .slider-container {
   position: relative;
-  background: url("../../img/slider-bg.jpg") no-repeat right 20px;
-}
-
-.main-slider {
-  text-align: center;
-  background-size: cover;
-  position: relative;
-  padding-top: 200px;
-  padding-bottom: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.main-slider .slider-items {
-  display: flex;
-  justify-content: space-between;
-}
-.main-slider .slider-items .item {
-  margin-right: 15px;
-  width: 274px;
-  height: 430px;
-  background-color: #233a50;
+  background: url("../../img/slider-bg.jpg") no-repeat center;
 }
 
 /*# sourceMappingURL=MainSlider.css.map */
