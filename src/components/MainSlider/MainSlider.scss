@@ -4,3 +4,65 @@
   position: relative;
   background: url("../../img/slider-bg.jpg") no-repeat center ;
 }
+
+.item-slider {
+  display: flex !important;
+  justify-content: center;
+  margin: 50px 0;
+  .slider-details{
+    display: flex;
+    align-items: center;
+
+    .description {
+      font-family: $primary-font;
+      text-transform: uppercase;
+      color: $title-text-color;
+      .movie-title{
+        max-width: 500px;
+        width: 100%;
+        font-size: 60px;
+        font-weight: 700;
+        margin-bottom: 15px;
+      }
+      .movie-details{
+        margin: 15px 0;
+      }
+      .category{
+        margin-bottom: 15px;
+        span {
+          margin-right: 5px;
+          border-radius: 3px;
+          padding: 3px 5px;
+        }
+        span.action-cat {
+          background-color: $action-cat;
+        }
+        span.adventure-cat {
+          background-color: $adventure-cat;
+        }
+        span.fantasy-cat {
+          background-color: $fantasy-cat;
+        }
+      }
+      .add-bnt {
+        padding: 10px;
+        margin: 15px 0;
+      }
+      .btn-more-detail {
+        max-width: 130px;
+        width: 100%;
+        a {
+          padding: 0;
+          font-size: 14px;
+          font-weight: 700;
+        }
+      }
+
+    }
+    .poster{
+      height: 413px;
+      width: 270px;
+      background-color: $primary-color;
+    }
+  }
+}
