@@ -1,7 +1,6 @@
 import React from "react";
 import './MainSlider.css'
-import DefaultSlider from "../Default-Slider/Default-Slider";
-
+import DefaultSlider from "../DefaultSlider/Default-Slider";
 const MainSlider = () => {
     return (
         <div className='slider-container'>

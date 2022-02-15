@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../../styles/variables/variables.scss","Footer.scss"],"names":[],"mappings":"AAeA;EACE,kBATW;EAUX;EACA;;;AChBF;EACE;EACA;EACA;EACA;EACA,aDIgB;;ACHhB;EACE;EACA;;AACA;EACE;;AAGJ;EACE,ODbqB;;ACevB;EACE;EACA,aDTc;;ACWhB;EACE;;AAEF;EACE,ODtBe;ECuBf;;AAEF;EACE;EACA;;;AAGJ;EACE;EACA;EACA;EACA,aD3BgB;EC4BhB,ODpCuB","file":"Footer.css"}

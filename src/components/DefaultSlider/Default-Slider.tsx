@@ -15,7 +15,7 @@ function DefaultSlider() {
                 <Slider {...settings}>
                     <div className='item'>
                         <div className="desc">1</div>
-                        <div className="poster"></div>
+                        <div className="poster">1</div>
                     </div>
                 </Slider>
             </div>

@@ -1,0 +1,41 @@
+@import "../../styles/variables/variables";
+
+.footer-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 80px 0 60px 0;
+  font-family: $additional-font;
+  .ft-item a, .ft-item li, .ft-item p, .ft-item input {
+    padding: 0;
+    margin-bottom: 10px;
+    &:active {
+      margin: 0;
+    }
+  }
+  .ft-item p {
+    color: $placeholder-text-color;
+  }
+  .ft-item input {
+    margin-bottom: 30px;
+    font-family: $additional-font;
+  }
+  .ft-item .defaultButton {
+    padding: 15px;
+  }
+  .ft-item h4 {
+    color: $title-text-color;
+    margin-bottom: 30px;
+  }
+  .item2 ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.ft-copyright {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  font-family: $additional-font;
+  color: $placeholder-text-color;
+}
