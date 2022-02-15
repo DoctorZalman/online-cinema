@@ -9,4 +9,64 @@
   background: url("../../img/slider-bg.jpg") no-repeat center;
 }
 
+.item-slider {
+  display: flex !important;
+  justify-content: center;
+  margin: 50px 0;
+}
+.item-slider .slider-details {
+  display: flex;
+  align-items: center;
+}
+.item-slider .slider-details .description {
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.item-slider .slider-details .description .movie-title {
+  max-width: 500px;
+  width: 100%;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.item-slider .slider-details .description .movie-details {
+  margin: 15px 0;
+}
+.item-slider .slider-details .description .category {
+  margin-bottom: 15px;
+}
+.item-slider .slider-details .description .category span {
+  margin-right: 5px;
+  border-radius: 3px;
+  padding: 3px 5px;
+}
+.item-slider .slider-details .description .category span.action-cat {
+  background-color: #1692bb;
+}
+.item-slider .slider-details .description .category span.adventure-cat {
+  background-color: #ec5a1a;
+}
+.item-slider .slider-details .description .category span.fantasy-cat {
+  background-color: #f5b50a;
+}
+.item-slider .slider-details .description .add-bnt {
+  padding: 10px;
+  margin: 15px 0;
+}
+.item-slider .slider-details .description .btn-more-detail {
+  max-width: 130px;
+  width: 100%;
+}
+.item-slider .slider-details .description .btn-more-detail a {
+  padding: 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+.item-slider .slider-details .poster {
+  height: 413px;
+  width: 270px;
+  background-color: #233a50;
+}
+
 /*# sourceMappingURL=MainSlider.css.map */

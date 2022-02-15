@@ -11,8 +11,12 @@ $red-button: #dd003f;
 $primary-font: 'Dosis', sans-serif;
 $additional-font: 'Nunito', sans-serif;
 
-// Default Button
+// Head Category color
+$action-cat: #1692bb;
+$adventure-cat: #ec5a1a;
+$fantasy-cat: #f5b50a;
 
+// Default Button
 .defaultButton {
   background-color: $red-button;
   padding: 11px 25px;

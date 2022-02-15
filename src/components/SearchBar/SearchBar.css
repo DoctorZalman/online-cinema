@@ -8,6 +8,7 @@
   display: flex;
   justify-content: flex-start;
   border: 4px solid #020d18;
+  margin: 30px 0;
 }
 .top-search select {
   width: 20%;
