@@ -1,0 +1,11 @@
+@import "../../../styles/variables/variables";
+
+a {
+  color: $placeholder-text-color;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px;
+}
+a.defaultButton {
+  color: #ffffff;
+}
