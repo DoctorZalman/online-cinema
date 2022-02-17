@@ -5,16 +5,21 @@
 }
 
 .menu {
+  position: absolute;
+  z-index: 1;
   display: flex;
-  padding: 30px 0;
+  padding: 2% 10%;
   background-color: transparent;
+  right: 0;
+  left: 0;
 }
 
 .menu-items {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
-  padding: 0 15px;
+  padding-left: 20px;
 }
 .menu-items .nav-menu, .menu-items .log-in-menu {
   display: flex;

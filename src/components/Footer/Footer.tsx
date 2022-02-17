@@ -4,7 +4,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <footer className='footer slider-container'>
+        <footer className='footer background-container'>
             <div className="main_container">
                 <div className="footer-navbar">
                     <div className="ft-item item1">

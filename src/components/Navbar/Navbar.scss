@@ -1,16 +1,25 @@
 @import "../../styles/variables/variables";
+header {
 
+}
 .menu {
+  position: absolute;
+  z-index: 1;
   display: flex;
-  padding: 30px 0;
+  padding: 2% 10%;
   background-color: transparent;
+  right: 0;
+  left: 0;
+  //max-width: 1350px;
+  //width: 100%;
 }
 
 .menu-items {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
-  padding: 0 15px;
+  padding-left: 20px;
 
   .nav-menu, .log-in-menu {
     display: flex;
@@ -29,5 +38,7 @@
 .menu-items a.active {
   color: $button-active;
 }
+
+
 
 
