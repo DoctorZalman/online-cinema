@@ -1,10 +1,12 @@
 @import "../../styles/variables/variables";
 
-.slider-container {
+.background-container {
   position: relative;
   background: url("../../img/slider-bg.jpg") no-repeat center ;
 }
-
+.main-slider {
+  padding-top: 100px;
+}
 .item-slider {
   display: flex !important;
   justify-content: center;

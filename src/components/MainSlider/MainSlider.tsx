@@ -1,6 +1,8 @@
 import React from "react";
 import './MainSlider.css';
 import Slider from "react-slick";
+// @ts-ignore
+import slider1 from '../../img/slider1.jpg'
 
 function MainSlider() {
     const settings = {
@@ -10,7 +12,7 @@ function MainSlider() {
         slidesToShow: 1
     }
     return (
-        <div className="slider-container">
+        <div className="background-container">
             <div className='main_container'>
                 <div className="main-slider">
                     <Slider {...settings}>
@@ -37,7 +39,7 @@ function MainSlider() {
                                     </div>
                                 </div>
                                 <div className="poster">
-                                    {/*<img src="../../img/slider1.jpg" alt="poster"/>*/}
+                                    <img src={slider1} alt="poster"/>
                                 </div>
                             </div>
                         </div>
