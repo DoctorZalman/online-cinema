@@ -33,10 +33,30 @@
     justify-content: center;
     flex-direction: column;
     .poster {
+      display: flex;
+      flex-direction: column-reverse;
       margin-right: 30px;
       background: url("../../img/slider1.jpg") no-repeat center;
       width: 285px;
       height: 437px;
+      .default-slider-btn-hide{
+        display: none;
+      }
+      .title-movie{
+        font-family: $primary-font;
+        color: $title-text-color;
+        text-transform: uppercase;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        h6{
+          font-size: 14px;
+          font-weight: bold;
+          padding-bottom: 5px;
+        }
+        p{
+          font-size: 12px;
+        }
+      }
     }
   }
 }

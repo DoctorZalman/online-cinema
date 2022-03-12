@@ -11,9 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f758f48b-dfe7-4a1f-9070-4798f7a6044f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_14_2022_5_12_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_14_2022_5_12_PM__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_15_2022_2_53_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_15_2022_2_53_PM__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DefaultSlider/Default-Slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DefaultSlider/Default-Slider.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DefaultSlider/Default-Slider.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DefaultSlider/Default-Slider.css.map" afterDir="false" />
@@ -23,13 +20,11 @@
       <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar/MenuComponent/Menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/MenuComponent/Menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar/MenuComponent/Menu.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/MenuComponent/Menu.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/Home/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Home/HomePage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
@@ -81,7 +76,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
     <property name="ts.external.directory.path" value="D:\IT\React\online-cinema\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -151,26 +146,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1644686341841" />
-    <state x="622" y="65" width="914" height="707" key="SettingsEditor" timestamp="1644911629277">
+    <state x="555" y="65" width="914" height="707" key="SettingsEditor" timestamp="1647086757131">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="622" y="65" width="914" height="707" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1644911629277" />
+    <state x="555" y="65" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1647086757131" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1644930256617">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1644930256617" />
-    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1644926271971">
+    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1647088580355">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1644926271971" />
+    <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1647088580355" />
     <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1644851592547">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1644851592547" />
-    <state x="574" y="259" key="git4idea.ui.GitUnstashDialog" timestamp="1644855839624">
+    <state x="574" y="259" key="git4idea.ui.GitUnstashDialog" timestamp="1647086317913">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="259" key="git4idea.ui.GitUnstashDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1644855839624" />
+    <state x="574" y="259" key="git4idea.ui.GitUnstashDialog/0.0.1536.824@0.0.1536.824" timestamp="1647086317913" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1644930745167">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

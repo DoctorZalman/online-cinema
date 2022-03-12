@@ -2,6 +2,17 @@
   background-color: #dd003f;
   padding: 11px 25px;
   border-radius: 20px;
+  font-family: "Dosis", sans-serif;
+}
+
+.btn-more-detail {
+  max-width: 130px;
+  width: 100%;
+}
+.btn-more-detail a {
+  padding: 0;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 h2 {
@@ -44,10 +55,30 @@ h2 {
   flex-direction: column;
 }
 .default-slider .item .poster {
+  display: flex;
+  flex-direction: column-reverse;
   margin-right: 30px;
   background: url("../../img/slider1.jpg") no-repeat center;
   width: 285px;
   height: 437px;
+}
+.default-slider .item .poster .default-slider-btn-hide {
+  display: none;
+}
+.default-slider .item .poster .title-movie {
+  font-family: "Dosis", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.default-slider .item .poster .title-movie h6 {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.default-slider .item .poster .title-movie p {
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=Default-Slider.css.map */

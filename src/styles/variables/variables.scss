@@ -21,6 +21,16 @@ $fantasy-cat: #f5b50a;
   background-color: $red-button;
   padding: 11px 25px;
   border-radius: 20px;
+  font-family: $primary-font;
+}
+.btn-more-detail {
+  max-width: 130px;
+  width: 100%;
+  a {
+    padding: 0;
+    font-size: 14px;
+    font-weight: 700;
+  }
 }
 
 h2{
