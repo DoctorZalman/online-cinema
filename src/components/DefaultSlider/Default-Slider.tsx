@@ -9,7 +9,7 @@ function DefaultSlider() {
             dots: true,
             infinite: true,
             speed: 500,
-            slidesToShow: 6
+            slidesToShow: 2
         }
         return (
             <div className="default-slider">
@@ -26,17 +26,15 @@ function DefaultSlider() {
                 </div>
                 <Slider {...settings}>
                     <div className='item'>
-
                         <div className="poster">
-                            <div className="hvr-inner ">
-                                <button className='defaultButton'>Read more </button>
+                            <div className="btn btn-more-detail defaultButton default-slider-btn-hide">
+                              <a href='#'>More detail</a>
                             </div>
-                            <div className="title-in">
-                                <h6><a href="#">Interstellar</a></h6>
+                            <div className="title-movie">
+                                <h6>Interstellar</h6>
                                 <p>Rating: <span>7.4</span> /10</p>
                             </div>
                         </div>
-
                     </div>
                 </Slider>
             </div>

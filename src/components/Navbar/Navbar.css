@@ -2,6 +2,17 @@
   background-color: #dd003f;
   padding: 11px 25px;
   border-radius: 20px;
+  font-family: "Dosis", sans-serif;
+}
+
+.btn-more-detail {
+  max-width: 130px;
+  width: 100%;
+}
+.btn-more-detail a {
+  padding: 0;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 h2 {
