@@ -6,7 +6,7 @@ import slider1 from '../../img/slider1.jpg'
 
 function MainSlider() {
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 1

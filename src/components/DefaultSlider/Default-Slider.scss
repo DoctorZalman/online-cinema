@@ -1,10 +1,42 @@
 @import "../../styles/variables/variables";
 
-.item {
-  width: 80%;
-  height: 430px;
-  background-color: $primary-color;
-  & desc {
-    background-color: white;
+.default-slider {
+  background-color: #020d18;
+  padding: 3% 6%;
+  .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    a {
+      font-family: $primary-font;
+    }
+  }
+  .tabs{
+    margin-bottom: 25px;
+    ul{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    li.active{
+      a{
+        color: $button-active;
+      }
+    }
+    a {
+      font-family: $primary-font;
+    }
+  }
+  .item{
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column;
+    .poster {
+      margin-right: 30px;
+      background: url("../../img/slider1.jpg") no-repeat center;
+      width: 285px;
+      height: 437px;
+    }
   }
 }

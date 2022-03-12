@@ -4,6 +4,13 @@
   border-radius: 20px;
 }
 
+h2 {
+  font-family: "Dosis", sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
 .background-container {
   position: relative;
   background: url("../../img/slider-bg.jpg") no-repeat center;

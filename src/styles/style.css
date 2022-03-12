@@ -147,6 +147,13 @@ table {
   border-radius: 20px;
 }
 
+h2 {
+  font-family: "Dosis", sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
 .main_container {
   margin: 0 auto;
   max-width: 1720px;
