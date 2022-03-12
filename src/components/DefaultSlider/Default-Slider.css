@@ -4,13 +4,50 @@
   border-radius: 20px;
 }
 
-.item {
-  width: 80%;
-  height: 430px;
-  background-color: #233a50;
+h2 {
+  font-family: "Dosis", sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
-.item desc {
-  background-color: white;
+
+.default-slider {
+  background-color: #020d18;
+  padding: 3% 6%;
+}
+.default-slider .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.default-slider .title a {
+  font-family: "Dosis", sans-serif;
+}
+.default-slider .tabs {
+  margin-bottom: 25px;
+}
+.default-slider .tabs ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.default-slider .tabs li.active a {
+  color: #dcf836;
+}
+.default-slider .tabs a {
+  font-family: "Dosis", sans-serif;
+}
+.default-slider .item {
+  display: flex !important;
+  justify-content: center;
+  flex-direction: column;
+}
+.default-slider .item .poster {
+  margin-right: 30px;
+  background: url("../../img/slider1.jpg") no-repeat center;
+  width: 285px;
+  height: 437px;
 }
 
 /*# sourceMappingURL=Default-Slider.css.map */

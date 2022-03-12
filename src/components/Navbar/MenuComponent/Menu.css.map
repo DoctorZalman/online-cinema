@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../../styles/variables/variables.scss","Menu.scss"],"names":[],"mappings":"AAmBA;EACE,kBAbW;EAcX;EACA;;;ACpBF;EACE;EACA;EACA;EACA;;;AAEF;EACE","file":"Menu.css"}
+{"version":3,"sourceRoot":"","sources":["../../../styles/variables/variables.scss","Menu.scss"],"names":[],"mappings":"AAmBA;EACE,kBAbW;EAcX;EACA;;;AAGF;EACE,aAhBa;EAiBb;EACA,OAxBiB;EAyBjB;;;AC3BF;EACE;EACA;EACA;EACA;;;AAEF;EACE","file":"Menu.css"}

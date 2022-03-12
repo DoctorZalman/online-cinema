@@ -11,17 +11,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f758f48b-dfe7-4a1f-9070-4798f7a6044f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_14_2022_5_12_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_14_2022_5_12_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_15_2022_2_53_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_15_2022_2_53_PM__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DefaultSlider/Default-Slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DefaultSlider/Default-Slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DefaultSlider/Default-Slider.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DefaultSlider/Default-Slider.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DefaultSlider/Default-Slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DefaultSlider/Default-Slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DefaultSlider/Default-Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DefaultSlider/Default-Slider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/MenuComponent/Menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/MenuComponent/Menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/MenuComponent/Menu.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/MenuComponent/Menu.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pages/Home/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Home/HomePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/variables/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variables/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +107,7 @@
       <workItem from="1644741692715" duration="5112000" />
       <workItem from="1644909981847" duration="8426000" />
       <workItem from="1645117344312" duration="522000" />
+      <workItem from="1647014690427" duration="665000" />
     </task>
     <servers />
   </component>

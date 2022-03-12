@@ -4,6 +4,13 @@
   border-radius: 20px;
 }
 
+h2 {
+  font-family: "Dosis", sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
 a {
   color: #abb7c4;
   text-decoration: none;
