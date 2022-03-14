@@ -22,63 +22,56 @@ h2 {
   text-transform: uppercase;
 }
 
-.default-slider {
-  background-color: #020d18;
-  padding: 3% 6%;
-}
-.default-slider .title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 25px;
-}
-.default-slider .title a {
-  font-family: "Dosis", sans-serif;
-}
-.default-slider .tabs {
-  margin-bottom: 25px;
-}
-.default-slider .tabs ul {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.default-slider .tabs li.active a {
-  color: #dcf836;
-}
-.default-slider .tabs a {
-  font-family: "Dosis", sans-serif;
-}
-.default-slider .item {
+.item {
   display: flex !important;
   justify-content: center;
   flex-direction: column;
 }
-.default-slider .item .poster {
+.item .poster {
   display: flex;
   flex-direction: column-reverse;
   margin-right: 30px;
   background: url("../../img/slider1.jpg") no-repeat center;
   width: 285px;
   height: 437px;
+  position: relative;
 }
-.default-slider .item .poster .default-slider-btn-hide {
+.item .poster .default-slider-btn-hide {
   display: none;
 }
-.default-slider .item .poster .title-movie {
+.item .poster:hover .default-slider-btn-hide {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 65px);
+}
+.item .poster .container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.item .poster .title-movie {
+  position: absolute;
+  bottom: 10px;
   font-family: "Dosis", sans-serif;
   color: #ffffff;
   text-transform: uppercase;
   margin-left: 30px;
   margin-bottom: 20px;
 }
-.default-slider .item .poster .title-movie h6 {
+.item .poster .title-movie h6 {
   font-size: 14px;
   font-weight: bold;
   padding-bottom: 5px;
 }
-.default-slider .item .poster .title-movie p {
+.item .poster .title-movie p {
   font-size: 12px;
 }
 
-/*# sourceMappingURL=Default-Slider.css.map */
+.slick-track {
+  display: flex;
+}
+
+/*# sourceMappingURL=SecondarySlider.css.map */

@@ -1,0 +1,32 @@
+@import "../../styles/variables/variables";
+
+.default-slider {
+  background-color: #020d18;
+  padding: 3% 6%;
+  .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    a {
+      font-family: $primary-font;
+    }
+  }
+  .tabs{
+    margin-bottom: 25px;
+    ul{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    li.active{
+      a{
+        color: $button-active;
+      }
+    }
+    a {
+      font-family: $primary-font;
+    }
+  }
+
+}

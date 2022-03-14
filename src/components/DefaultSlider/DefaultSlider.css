@@ -1,0 +1,53 @@
+.defaultButton {
+  background-color: #dd003f;
+  padding: 11px 25px;
+  border-radius: 20px;
+  font-family: "Dosis", sans-serif;
+}
+
+.btn-more-detail {
+  max-width: 130px;
+  width: 100%;
+}
+.btn-more-detail a {
+  padding: 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Dosis", sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.default-slider {
+  background-color: #020d18;
+  padding: 3% 6%;
+}
+.default-slider .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.default-slider .title a {
+  font-family: "Dosis", sans-serif;
+}
+.default-slider .tabs {
+  margin-bottom: 25px;
+}
+.default-slider .tabs ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.default-slider .tabs li.active a {
+  color: #dcf836;
+}
+.default-slider .tabs a {
+  font-family: "Dosis", sans-serif;
+}
+
+/*# sourceMappingURL=DefaultSlider.css.map */

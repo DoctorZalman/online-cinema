@@ -63,13 +63,13 @@ h2 {
   border-radius: 3px;
   padding: 3px 5px;
 }
-.item-slider .slider-details .description .category span.action-cat {
+.item-slider .slider-details .description .category span.cat-0 {
   background-color: #1692bb;
 }
-.item-slider .slider-details .description .category span.adventure-cat {
+.item-slider .slider-details .description .category span.cat-1 {
   background-color: #ec5a1a;
 }
-.item-slider .slider-details .description .category span.fantasy-cat {
+.item-slider .slider-details .description .category span.cat-2 {
   background-color: #f5b50a;
 }
 .item-slider .slider-details .description .add-bnt {
