@@ -1,4 +1,4 @@
-import { IGenre } from '../redux/movies/interface';
+import { IGenre } from '../interface/general';
 
 export const getMovieGenres = (genre_all: IGenre[], genre_ids: []) => {
   return genre_ids.reduce((acc: any, item: number) => {

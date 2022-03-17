@@ -1,8 +1,3 @@
-export interface MovieListProps {
-  movies: IMovie[];
-  genres: IGenre[];
-}
-
 export interface IMovie {
   id: number;
   original_language: string;
@@ -18,7 +13,8 @@ export interface IMovie {
   genre_ids: [];
 }
 
-export interface IGenre {
-  id: number;
-  name: string;
+export enum SecondSliderData {
+  NOW_PLAYING = 'nowPlaying',
+  UP_COMING = 'upComing',
+  TOP_RATED = 'topRated',
 }

@@ -31,10 +31,22 @@ h2 {
   display: flex;
   flex-direction: column-reverse;
   margin-right: 30px;
-  background: url("../../img/slider1.jpg") no-repeat center;
   width: 285px;
-  height: 437px;
+  height: auto;
   position: relative;
+}
+.item .poster img:after {
+  box-shadow: inset -5px -50px 100px -15px #000000;
+  -webkit-box-shadow: inset -5px -50px 100px -15px #000000;
+  -moz-box-shadow: inset -5px -50px 100px -15px #000000;
+  -o-box-shadow: inset -5px -50px 100px -15px #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
 }
 .item .poster .default-slider-btn-hide {
   display: none;
