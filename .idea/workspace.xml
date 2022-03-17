@@ -11,31 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f758f48b-dfe7-4a1f-9070-4798f7a6044f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/api/movies/interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CustomSlider/SliderItem.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface/general.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface/movie.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/movies/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/movies/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CustomSlider/SliderItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CustomSlider/SliderItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DefaultSlider/DefaultSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DefaultSlider/DefaultSlider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CustomSlider/SliderItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CustomSlider/SliderItem.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/Home/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Home/HomePage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SecondarySlider/SecondarySlider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SecondarySlider/SecondarySlider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SecondarySlider/SecondarySlider.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SecondarySlider/SecondarySlider.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SecondarySlider/SecondarySlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SecondarySlider/SecondarySlider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SecondarySlider/SecondarySlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SecondarySlider/SecondarySlider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/consts/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/movies/actionCreators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/movies/actionCreators.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/movies/interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CustomSlider/interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/movies/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/movies/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/movies/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/movies/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sagas/movies/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/sagas/movies/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sagas/movies/sagasWatchers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/sagas/movies/sagasWatchers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/utils.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
