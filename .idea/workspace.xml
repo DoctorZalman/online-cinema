@@ -11,10 +11,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f758f48b-dfe7-4a1f-9070-4798f7a6044f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CustomSlider/SliderItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CustomSlider/SliderItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SecondarySlider/SecondarySlider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SecondarySlider/SecondarySlider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SecondarySlider/interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/movies/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/movies/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DefaultSlider/DefaultSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DefaultSlider/DefaultSlider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Home/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Home/HomePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SecondarySlider/SecondarySlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SecondarySlider/SecondarySlider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface/movie.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interface/movie.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/movies/actionCreators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/movies/actionCreators.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/movies/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/movies/reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/movies/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/movies/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sagas/movies/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/sagas/movies/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sagas/movies/sagasWatchers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/sagas/movies/sagasWatchers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/utils.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,16 +182,16 @@
     </state>
     <state x="622" y="65" width="914" height="707" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1644911629277" />
     <state x="307" y="38" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1647185600988" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1647330029069">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1647521360378">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1644930256617" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1647330029069" />
-    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1647448912506">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1647521360378" />
+    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1647522953204">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1644926271971" />
-    <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1647448912506" />
+    <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1647522953204" />
     <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1644851592547">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
