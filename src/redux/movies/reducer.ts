@@ -29,14 +29,14 @@ const moviesReducer = (state = initialState, { type, payload }: any) => {
     case MoviesTypes.GET_GENRES_ERROR:
       return { ...state, isLoading: false, error: payload };
 
-    // now playing
-    case MoviesTypes.GET_NOW_PLAYING:
+    // GET_SECONDARY_SLIDER_ERROR
+    case MoviesTypes.GET_SECONDARY_SLIDER_DATA:
       return { ...state, isLoading: true };
 
-    case MoviesTypes.GET_NOW_PLAYING_SUCCESS:
+    case MoviesTypes.GET_SECONDARY_SLIDER_DATA_SUCCESS:
       return { ...state, isLoading: false, secondSliderData: payload };
 
-    case MoviesTypes.GET_NOW_PLAYING_ERROR:
+    case MoviesTypes.GET_SECONDARY_SLIDER_DATA_ERROR:
       return { ...state, isLoading: false, error: payload };
 
     default:

@@ -4,8 +4,8 @@ import {
   getGenresSuccess,
   getMoviesError,
   getMoviesSuccess,
-  getNowPlayingError,
-  getNowPlayingSuccess,
+  getSecondarySliderDataError,
+  getSecondarySliderDataSuccess,
 } from '../../redux/movies/actionCreators';
 import { call, put } from 'typed-redux-saga';
 import { moviesAPI } from '../../api';
@@ -44,9 +44,8 @@ export function* workerGetDataSecondSlider() {
         [TOP_RATED]: result[2].value.data.results,
       };
     });
-    console.log(data);
-    yield put(getNowPlayingSuccess(data));
+    yield put(getSecondarySliderDataSuccess(data));
   } catch ({ message }) {
-    yield put(getNowPlayingError(message));
+    yield put(getSecondarySliderDataError(message));
   }
 }

@@ -5,7 +5,7 @@ import { workerGetDataSecondSlider, workerGetGenres, workerGetMovies } from './i
 const movieWatchers = [
   takeEvery(MoviesTypes.GET_MOVIES, workerGetMovies),
   takeEvery(MoviesTypes.GET_GENRES, workerGetGenres),
-  takeEvery(MoviesTypes.GET_NOW_PLAYING, workerGetDataSecondSlider),
+  takeEvery(MoviesTypes.GET_SECONDARY_SLIDER_DATA, workerGetDataSecondSlider),
 ];
 
 export default movieWatchers;
