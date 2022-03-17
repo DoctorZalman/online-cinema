@@ -1,8 +1,13 @@
 import React from 'react';
 import './DefaultSlider.css';
 import SecondarySlider from '../SecondarySlider/SecondarySlider';
+import { shallowEqual, useSelector } from 'react-redux';
+import { moviesSelector } from '../../redux/selectors/movies';
+import CircularProgress from '@mui/material/CircularProgress';
 
 const DefaultSlider = () => {
+  const { nowPlaying, isLoading } = useSelector(moviesSelector, shallowEqual);
+
   return (
     <div className="default-slider">
       <div className="title">
@@ -22,7 +27,12 @@ const DefaultSlider = () => {
           </li>
         </ul>
       </div>
-      <SecondarySlider />
+      {isLoading && !nowPlaying.lenght ? (
+        <CircularProgress color="secondary" />
+      ) : (
+        // @ts-ignore
+        <SecondarySlider a />
+      )}
     </div>
   );
 };

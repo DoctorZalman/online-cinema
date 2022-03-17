@@ -1,8 +1,10 @@
 import React, { FC } from 'react';
-import { MovieListProps } from '../../redux/movies/interface';
+import { MovieListProps } from './interface';
 import Slider from 'react-slick';
 import { getMovieGenres } from '../../utils/utils';
 import { POSTER_URL } from '../../consts';
+import './SliderItem.css';
+
 const settings = {
   dots: false,
   infinite: true,

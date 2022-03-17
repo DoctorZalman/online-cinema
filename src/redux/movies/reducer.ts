@@ -5,6 +5,7 @@ const initialState = {
   isLoading: false,
   error: null,
   genres: [],
+  secondSliderData: [],
 };
 
 const moviesReducer = (state = initialState, { type, payload }: any) => {
@@ -26,6 +27,16 @@ const moviesReducer = (state = initialState, { type, payload }: any) => {
       return { ...state, isLoading: false, genres: payload };
 
     case MoviesTypes.GET_GENRES_ERROR:
+      return { ...state, isLoading: false, error: payload };
+
+    // now playing
+    case MoviesTypes.GET_NOW_PLAYING:
+      return { ...state, isLoading: true };
+
+    case MoviesTypes.GET_NOW_PLAYING_SUCCESS:
+      return { ...state, isLoading: false, secondSliderData: payload };
+
+    case MoviesTypes.GET_NOW_PLAYING_ERROR:
       return { ...state, isLoading: false, error: payload };
 
     default:
