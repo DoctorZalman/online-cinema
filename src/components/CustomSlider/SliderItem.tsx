@@ -1,9 +1,10 @@
 import React, { FC } from 'react';
 import { MovieListProps } from './interface';
 import Slider from 'react-slick';
-import { getMovieGenres } from '../../utils/utils';
 import { POSTER_URL } from '../../consts';
 import './SliderItem.css';
+import SocialButton from '../SocialButton/SocialButton';
+import CategoryList from '../CategoryList/CategoryList';
 
 const settings = {
   dots: false,
@@ -12,20 +13,14 @@ const settings = {
   slidesToShow: 1,
 };
 
-const SliderItem: FC<MovieListProps> = ({ movies, genres }) => {
+const SliderItem: FC<MovieListProps> = ({ movies }) => {
   return (
     <Slider {...settings}>
       {movies?.map(({ id, genre_ids, title, original_title, release_date, poster_path, vote_average }) => (
         <div className="item-slider" key={id}>
           <div className="slider-details">
             <div className="description">
-              <div className="category">
-                {getMovieGenres(genres, genre_ids).map((genre: string, index: number) => (
-                  <span className={`cat-${index > 2 ? 0 : index}`} key={index}>
-                    {genre}
-                  </span>
-                ))}
-              </div>
+              <CategoryList genre_ids={genre_ids} />
               <div className="movie-title">{title}</div>
               <div className="movie-orig-title">Оригінальна назва: {original_title}</div>
               <div className="movie-details">
@@ -33,11 +28,7 @@ const SliderItem: FC<MovieListProps> = ({ movies, genres }) => {
                 <br />
                 <span>Рейтинг {vote_average}/10</span>
               </div>
-              <div className="add-bnt">
-                <a href="#">Watch trailer</a>
-                <a href="#">Add to favorite</a>
-                <a href="#">Share</a>
-              </div>
+              <SocialButton />
               <div className="btn btn-more-detail defaultButton">
                 <a href="#">More detail</a>
               </div>

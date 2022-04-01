@@ -6,7 +6,7 @@ import { moviesSelector } from '../../redux/selectors/movies';
 import CircularProgress from '@mui/material/CircularProgress';
 
 function MainSlider() {
-  const { movies, genres, isLoading } = useSelector(moviesSelector, shallowEqual);
+  const { movies, isLoading } = useSelector(moviesSelector, shallowEqual);
   return (
     <div className="background-container">
       <div className="main_container">
@@ -14,7 +14,7 @@ function MainSlider() {
           {isLoading && !movies.lenght ? (
             <CircularProgress color="secondary" />
           ) : (
-            <SliderItem movies={movies.results} genres={genres} />
+            <SliderItem movies={movies.results} />
           )}
         </div>
       </div>

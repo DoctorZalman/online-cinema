@@ -1,0 +1,74 @@
+.defaultButton {
+  background-color: #dd003f;
+  padding: 11px 25px;
+  border-radius: 20px;
+  font-family: "Dosis", sans-serif;
+}
+
+.btn-more-detail {
+  max-width: 130px;
+  width: 100%;
+}
+.btn-more-detail a {
+  padding: 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Dosis", sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.single-page {
+  display: flex;
+  position: relative;
+  background: url("../../img/slider-bg.jpg") center;
+}
+.single-page .main_container {
+  display: flex;
+  padding-top: 100px;
+}
+.single-page .main_container .poster-block {
+  width: 30%;
+}
+.single-page .main_container .poster-block img {
+  max-width: 300px;
+  width: 100%;
+  max-height: 450px;
+  height: 100%;
+}
+.single-page .main_container .info-block {
+  padding-left: 5%;
+  width: 70%;
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.single-page .main_container .info-block span {
+  font-size: 60px;
+  font-weight: 700;
+}
+.single-page .main_container .info-block .details {
+  padding-top: 3%;
+}
+.single-page .main_container .info-block .details span {
+  font-size: 30px;
+}
+.single-page .main_container .info-block .description {
+  padding-top: 3%;
+  line-height: normal;
+}
+.single-page .main_container .info-block .description span {
+  font-size: 20px;
+}
+.single-page .main_container .info-block .add-bnt {
+  padding-top: 3%;
+}
+.single-page .main_container .info-block .add-bnt :first-child {
+  padding-left: 0px;
+}
+
+/*# sourceMappingURL=SingleItem.css.map */

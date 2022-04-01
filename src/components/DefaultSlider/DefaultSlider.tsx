@@ -12,7 +12,7 @@ const DefaultSlider = () => {
   const { secondSliderData } = useSelector(moviesSelector, shallowEqual);
   const { NOW_PLAYING, UP_COMING, TOP_RATED } = SecondSliderData;
 
-  const [alignment, setAlignment] = useState(NOW_PLAYING); //
+  const [alignment, setAlignment] = useState(NOW_PLAYING);
 
   const [sliderData, setSecondSliderData] = useState(secondSliderData[alignment]);
 
